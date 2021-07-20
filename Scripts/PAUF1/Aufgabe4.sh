@@ -20,6 +20,8 @@ touch /home/stundent/loesungen/repo/Geheim
 cd /home/stundent/loesungen/repo
 echo "Hello World" >> Geheim
 cd .git/info/
-echo "/home/student/loesungen/repo/Geheim" > ./exclude
+echo "/home/student/loesungen/repo/Geheim" >> ./exclude
 cd ../..
 git ls-files --others --exclude-from=.git/info/exclude
+
+#5
