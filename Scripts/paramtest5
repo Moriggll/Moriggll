@@ -1,0 +1,14 @@
+#!/bin/bash
+
+anzahl=$#
+echo $anzahl
+zahl=1
+
+while [ $# -gt 0 ]
+do
+	echo "parameter"$zahl":" $1 
+	let zahl=$zahl+1
+	shift
+done
+
+

@@ -1,0 +1,10 @@
+#!/bin/bash
+echo $1
+KURSNAME=${1:-$KURSNAME}
+KURSNAME=${KURSNAME:-Kurs}
+NUMBER=$2
+while [ $NUMBER -gt 0 ]
+do
+	mkdir -p /home/moriggl/Desktop/${KURSNAME:-Kurs}/"block"$NUMBER/{Aufgaben,Loesungen}
+	let NUMBER=$NUMBER-1
+done

@@ -1,0 +1,8 @@
+#!/bin/bash
+#Benutzereingaben
+id_root() {
+if [["'whoami'" -eq root"]]
+then
+echo "you are root"
+fi
+}

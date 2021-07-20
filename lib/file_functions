@@ -1,0 +1,21 @@
+#!/bin/bash
+#Dateiattribute
+
+test_function() {
+	echo "test"
+}
+
+usage() {
+	echo $(basename $0) usage BLABLA 1>&2
+}
+
+yesno() {
+	while read -p "(Y)es or (N)o?" answer
+	do
+	case "$answer" in
+		[Y] | [y])	return 0 ;;
+		[N] | [n])	return 1 ;;
+		*)		echo "Enter Y or N"
+	esac
+	done
+}

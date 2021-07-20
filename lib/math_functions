@@ -1,0 +1,7 @@
+#!/bin/bash
+#Berechnungen
+test_function() {
+
+echo "test"
+
+}
