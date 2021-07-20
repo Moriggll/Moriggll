@@ -27,4 +27,4 @@ git ls-files --others --exclude-from=.git/info/exclude
 #5
 cd /home/student/loesungen/repo
 git add ./*
-git commit
+git commit -m "aufgabe-4 erledigt"
