@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#1.
+git config --global user.name "lukas.moriggl"
+git config --global user.email "lukas.moriggl@student.ifa.ch"
+
+#2.
+mkdir /home/student/loesungen/re/home/student/loesungen/rep
+p
+cd 
